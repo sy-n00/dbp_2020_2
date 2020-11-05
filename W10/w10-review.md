@@ -19,6 +19,16 @@
 2) 리스너는 클라이언트 요청을 분석하고 이를 DB 서비스에 요청된 서비스 핸들러에 전달함
 3) 클라이언트는 DB에 접속함
 
+- 자바의 메인메소드 public static void main(String[] args)
+<br>public : 접근제어자
+<br> 자바에서 프로그램의 시작은 메인문부터 시작되기 때문에 public이라고 하더라도 호출하여 사용하는 것은 어려움.
+<br>static : 이 함수가 정적함수임
+<br>해당 객체는 자바가 컴파일 되는 순간 정의됨.
+<br>void : 반환 값 데이터 형식
+<br>반환 값 없음. 함수 종류 후 호출한 부분으로 이동.
+<br>String[] args : 연속적인 문자열 데이터가 들어가는 저장공간
+<br>즉, 인자로 들어오는 파라미터들.(0개 이상)
+
 # 문제 발생 및 해결 내용
 - db와 연결하는 실습을 진행할 때 try~catch문의 catch 조건을 작성하는 부분에서 오류발생
 <br>Multi-catch parameters are not allowed for source level below 1.7
@@ -26,11 +36,14 @@
 <br>Change project compliance and JRE to 1.7
 <br>위와 같은 방법을 제시해주어서 해당 문구 클릭했더니 해결됨.
 <br><br> 하지만.. 저것은 1.7로 버전을 바꿔주는 것 같은데.. 나는 이미 1.8버전으로 설치를 했는데 왜 이렇게 떴을까? 지금 이렇게 바꾼 것이 나중에 실습할 때 삽질하게 만들 것 같아서 살짝 두렵다..
+
 # 참고 내용
 - 오라클 리스너 <br>
 http://www.gurubee.net/lecture/2811
+- [JAVA] 메인메소드 public static void main(String[] args) 를 이해하자 <br>
+https://javacpro.tistory.com/11
 
 # 회고
  - 이번에도 또다른 툴들을 다뤄볼 수 있게되어 좋다. 사실 그동안 이클립스 얘기는 정말 많이 들었는데 한번도 사용해본적이 없었는데 이 기회에 사용하게 되서 좋았다.
  - 강의를 보면서 똑같이 교수님 따라서 설치했는데 db와 연결하는 실습을 진행할 때 try~catch문의 catch 조건을 작성하는 부분에서 오류가 났다. 해결과정에서 ~~1.7 이렇게 되어있어서 버전과 관련된 문제 같은데 저걸로 고쳐서 나중에 실습할 때 오류가 날까봐 살짝 두렵다.
- - 클래스를 생성하면 교수님은 public static void main(String[] args)문이 바로 생성되는데 나는 바로생성되지 않아서 직접 쳐야한게 불편했다.
+ - 클래스를 생성하면 교수님은 public static void main(String[] args)문이 바로 생성되는데 나는 바로생성되지 않아서 직접 쳐야한게 불편했다. >> 교수님께서 보내주신 자료(참고내용-자바 메인메소드 public static void main(String[] args)를 이해하자)를 보고 클래스 생성 시 바로 생성해주는 체크박스에 체크하여 자동 생성되게 만들었다!
