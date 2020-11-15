@@ -1,7 +1,7 @@
 # 과제영상
 - job테이블에서 정보 삽입,수정,삭제,조회
 <br>https://youtu.be/XnFGp7YZL5o
-- 11주차과제영상2 - department테이블에서 정보 삽입,수정,삭제,조회
+- department테이블에서 정보 삽입,수정,삭제,조회
 <br>https://youtu.be/0fHnrYX1O8o
 
 # 새로 배운 내용 및 정리
