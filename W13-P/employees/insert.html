@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Insert Employee</title>
+	<style type="text/css">
+		#regbox{ width : 300px; }
+		#regbox label{ display : block;	width : 100px;	float : left; }
+	</style>
+</head>
+<body>
+	<ul>
+		<li><a href="../index.html">index</a>
+	</ul>
+	
+	<form method="post" action="Insert.jsp">
+		<fieldset id="regbox">
+			<legend>직원 추가</legend>
+			<label for="employee_id">직원 ID</label>
+			<input type="text" name="employee_id"/><br/><br/>
+			<label for="first_name">이름</label>
+			<input type="text" name="first_name"/><br/><br/>
+			<label for="last_name">성</label>
+			<input type="text" name="last_name"/><br/><br/>
+			<label for="email">이메일</label>
+			<input type="text" name="email"/><br/><br/>
+			<label for="phone_number">전화번호</label>
+			<input type="text" name="phone_number"/><br/><br/>
+			<label for="salary">급여</label>
+			<input type="text" name="salary"/><br/><br/>			
+			<input type="submit" value="추가">
+			<input type="reset" value="취소"/>			
+		</fieldset>
+	</form>
+</body>
+</html>

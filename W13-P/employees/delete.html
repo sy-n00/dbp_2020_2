@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Insert Employee</title>
+	<style type="text/css">
+		#regbox{ width : 300px; }
+		#regbox label{ display : block;	width : 100px;	float : left; }
+	</style>
+</head>
+<body>
+	<ul>
+		<li><a href="../index.html">index</a>
+	</ul>
+	
+	<form method="post" action="Delete.jsp">
+		<fieldset id="regbox">
+			<legend>직원 삭제</legend>
+			삭제할 직원 ID를 입력하세요
+			<label for="employee_id">직원 ID</label>
+			<input type="text" name="employee_id"/><br/><br/>		
+			<input type="submit" value="삭제">
+			<input type="reset" value="취소"/>			
+		</fieldset>
+	</form>
+</body>
+</html>
