@@ -54,6 +54,10 @@ https://simuing.tistory.com/168
 
 - [톰캣 서버 에러] Could not publish server configuration for Tomcat v9.0 Server at localhost.<br>
 https://hyoni-k.tistory.com/56
+
+- [톰캣]Multiple Contexts have a path of "/spring". 에러 해결!
+https://bumcrush.tistory.com/132
+
 # 회고
 - 오늘도 어김없이 환경설정에서 문제 발생! 이쯤되면 오류 없이 넘어가면 섭섭할 것 같다. 분명 테스트할때는 추가와 삭제가 제대로 되어서 처리 alert 메시지까지 봤는데 과제 영상 찍으려하니까 어떻게 이렇게 갑자기 오류가 발생할 수 있을까..
 - 오류를 해결하면 다른 오류가 나온다.. 그리고 다른 오류를 고치면 또다른 오류가 나온다.. 그리고 또다른 오류를 고치면 처음에 해결했던 오류가 다시 나온다.. 끊임없는 오류의 수레바퀴...
