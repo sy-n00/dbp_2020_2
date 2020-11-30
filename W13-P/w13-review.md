@@ -1,6 +1,6 @@
 # 과제영상
 - employees 테이블에서 컬럼 삭제
-
+https://youtu.be/H5el-spxwD8
 
 # 새로 배운 내용 및 정리
 - JSP
