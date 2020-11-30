@@ -1,5 +1,5 @@
 # 과제영상
-- employees 테이블에서 컬럼 삭제
+- employees 테이블에서 컬럼 삭제<br>
 https://youtu.be/H5el-spxwD8
 
 # 새로 배운 내용 및 정리
@@ -58,7 +58,7 @@ https://simuing.tistory.com/168
 - [톰캣 서버 에러] Could not publish server configuration for Tomcat v9.0 Server at localhost.<br>
 https://hyoni-k.tistory.com/56
 
-- [톰캣]Multiple Contexts have a path of "/spring". 에러 해결!
+- [톰캣]Multiple Contexts have a path of "/spring". 에러 해결!<br>
 https://bumcrush.tistory.com/132
 
 # 회고
