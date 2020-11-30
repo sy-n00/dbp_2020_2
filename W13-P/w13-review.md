@@ -44,6 +44,9 @@ IO 오류: The Network Adapter could not establish the connection
 ```
 Several ports (8005, 8090) required by Tomcat v8.5 Server at localhost are already in use. The server may already be running in another process, or a system process may be using the port. To start this server you will need to stop the other process or change the port number(s).
 ```
+>- 다른포트번호로 변경 후 재실행<br>하지만 해결되지 않음.
+>- 아래의 참고내용 링크와 기타 방법을 이용하여 여러가지 방법으로 해결해보려 하였으나 결국 해결하지 못함..
+>- 최종적으로 새로 톰캣과 이클립스를 삭제했다가 다시 설치 후 실습을 재진행하여 해결
 
 # 참고 내용
 - Several ports (8005, 8080, 8009) required by Tomcat v7.0 Server at localhost are already in use.<br>
@@ -61,3 +64,5 @@ https://bumcrush.tistory.com/132
 # 회고
 - 오늘도 어김없이 환경설정에서 문제 발생! 이쯤되면 오류 없이 넘어가면 섭섭할 것 같다. 분명 테스트할때는 추가와 삭제가 제대로 되어서 처리 alert 메시지까지 봤는데 과제 영상 찍으려하니까 어떻게 이렇게 갑자기 오류가 발생할 수 있을까..
 - 오류를 해결하면 다른 오류가 나온다.. 그리고 다른 오류를 고치면 또다른 오류가 나온다.. 그리고 또다른 오류를 고치면 처음에 해결했던 오류가 다시 나온다.. 끊임없는 오류의 수레바퀴...
+- 톰캣이라는 새로운 환경을 사용해볼 수 있어서 좋았다.
+- 모델-뷰-컨트롤러 모델에 대해서 막연하게 알고만 있었는데 새로운 예시를 알게되었다. 올해 초에 정보처리기사를 공부할 때는 글을 읽어도 잘 와닿지 않았는데 이번에 교수님 설명을 듣고나니 이런식으로 돌아가는 거구나를 알 수 있었다.
